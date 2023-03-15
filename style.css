@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Mono:wght@100&family=Tilt+Prism&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+
+
+    body {
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+
+    }
+
+        .intro-image { 
+            background-attachment: fixed;
+            background-image: url('image1.jpg');
+            background-size: cover;
+            background-position: bottom;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+
+
+            .intro-image__text a {
+                background-color: #45556273;
+                border: 2px solid #f70a45;
+                color: #f70930;
+                display: inline-block;
+                font-size: 3rem;
+                padding: 2rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: all 1s ease-in-out;
+
+                animation-name: moveInLeft;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+            }
+
+            @keyframes moveInLeft {
+                0% {
+                    transform: translateX(-1000px);
+                    opacity: 0;
+                }
+                80% {
+                    transform: translate(50px);
+                    opacity: 1;
+                }
+            
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+
+            }
+            
+
+
+
+            
+             .intro-image__text a:hover {
+             transform: scale(1.2);
+
+             }
+
+             .intro-text {
+                background-color: #455562;
+                color: #8a3745;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 250px;
+                padding: 0 10 rem;
+            
+            }
+
+
+            .intro-text__textbox h3 {
+                font-size: 2rem;
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+                
+            }
+
+
+            .packaging-image {
+                background-attachment: fixed;
+                background-image: url('image3.jpg');
+                background-size: cover;
+                background-position: bottom;
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                animation-name: moveInRight;
+                animation-duration: 3s;
+                animation-timing-function: ease-in-out;
+            }
+
+            @keyframes moveInRight {
+                0% {
+                    transform: translateX(1000px);
+                    opacity: 0;
+                }
+                80% {
+                    transform: translate(-50px);
+                    opacity: 1;
+                }
+            
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            
+            
+            }
+
+
+
+
+            .packaging-image__text a{
+
+                background-color: #4555625e;
+                border: 2px solid #455562;
+                color: #f1173c;
+                display: inline-block;
+                font-size: 3rem;
+                padding: 2rem;
+                clip-path: polygon(50% 5%, 100% 0, 100% 61%, 90% 100%, 7% 100%, 0 66%, 1% 0);
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: all 1s ease-in-out;
+
+                animation-name: moveInRight;
+                animation-duration: 3s;
+                animation-timing-function: ease-in-out;
+            }
+
+            @keyframes moveInRight {
+                0% {
+                    transform: translateX(1000px);
+                    opacity: 0;
+                }
+                80% {
+                    transform: translate(-50px);
+                    opacity: 1;
+                }
+            
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            
+            
+            }
+
+
+            
+            .packaging-image__text a:hover {
+                transform: scale(1.2);
+                
+                }
+
+                .packaging-text {
+                    background-color: #66525273;
+                    border: 2px solid #dac9ca;
+                    color: #837779;
+                    display: inline-block;
+                    font-size: 1rem;
+                    padding: 2rem;
+                    clip-path: polygon(50% 5%, 100% 0, 100% 61%, 90% 100%, 7% 100%, 0 66%, 1% 0);
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    transition: all 1s ease-in-out;
+                
+                }
+
+                
+                .packaging_text__textbox h3 {
+                    font-size: 2rem;
+                    text-transform: uppercase;
+                    margin-bottom: 1rem;
+                
+                }
+                
+
+                
+                .tutorials-image {
+                    background-attachment: fixed;
+                    background-image: url('image2.jpg');
+                    background-size: cover;
+                    background-position: bottom;
+                    height: 400px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .tutorials-image__text a{
+
+                    background-color: #4555625e;
+                    border: 2px solid #455562;
+                    color: #9e3b4c;
+                    display: inline-block;
+                    font-size: 3rem;
+                    padding: 2rem;
+                    clip-path: polygon(50% 5%, 100% 0, 100% 61%, 90% 100%, 7% 100%, 0 66%, 1% 0);
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    transition: all 1s ease-in-out;
+
+                    animation-name: moveInLeft;
+                    animation-duration: 3s;
+                    animation-timing-function: ease-in-out;
+                }
+
+
+            
+
+            @keyframes moveInLeft {
+                0% {
+                    transform: translateX(-1000px);
+                    opacity: 0;
+                }
+                80% {
+                    transform: translate(50px);
+                    opacity: 1;
+                }
+            
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            
+            
+            }
+
+
+
+                .tutorials-image__text a:hover {
+                    transform: scale(1.2);
+                    
+                    }
+
+                    
+                   
+                    
+                    .footer {       
+                        background-color: #e0ee1673;
+                        color: #27db27;
+                        height: 150px;
+                        font-size: 1.25rem;
+                        padding-top: 1.5rem;
+
+                    }
+
+                    .footer ul li {
+                        display: inline-block;
+                        margin: 0.5rem;
+                    
+                    
+                    }
+
+
+                    .footer ul li a{
+                        color: #dac9ca;
+                        text-decoration: none;
+                    
+                    
+                    }
+
+
+                    .footer ul li a:hover {
+                        color: #f3eced;
+                        display: inline-block;
+                        transform: scale(1.2);
+                    
+                    
+                    }
+                    
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
